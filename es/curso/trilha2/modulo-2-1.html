@@ -4,29 +4,29 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="forja-reel" name="inema-course"/>
+<meta content="forja-reel" name="ARCKHÉ-course"/>
 <title>Módulo 2.1 · Las 5 fases del motor | videos-edit Forja Reel</title>
 <script>
   (function () {
     try {
       var html = document.documentElement;
-      var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'blue' };
+      var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'blue' };
       function clone(o){var r={};for(var x in o)r[x]=o[x];return r;}
       var p = clone(DEF);
       try {
-        var raw = localStorage.getItem('inema.prefs');
+        var raw = localStorage.getItem('ARCKHÉ.prefs');
         if (raw) { var parsed = JSON.parse(raw); if (parsed && typeof parsed === 'object') { for (var k in DEF) if (parsed[k] != null) p[k] = parsed[k]; } }
-        else { var legacy = localStorage.getItem('theme'); if (legacy === 'light') p.theme = 'claro'; else if (legacy === 'dark') p.theme = 'inema-dark'; }
+        else { var legacy = localStorage.getItem('theme'); if (legacy === 'light') p.theme = 'claro'; else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark'; }
       } catch (e) { p = clone(DEF); }
-      var THEMES = { 'inema-dark':{dark:true,attr:null,cs:'dark'}, 'claro':{dark:false,attr:null,cs:'light'}, 'sepia':{dark:false,attr:'sepia',cs:'light'}, 'foco':{dark:null,attr:'foco',cs:null}, 'contraste':{dark:true,attr:'contraste',cs:'dark'} };
-      var t = THEMES[p.theme] || THEMES['inema-dark'];
+      var THEMES = { 'ARCKHÉ-dark':{dark:true,attr:null,cs:'dark'}, 'claro':{dark:false,attr:null,cs:'light'}, 'sepia':{dark:false,attr:'sepia',cs:'light'}, 'foco':{dark:null,attr:'foco',cs:null}, 'contraste':{dark:true,attr:'contraste',cs:'dark'} };
+      var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
       if (t.dark === true) html.classList.add('dark'); else if (t.dark === false) html.classList.remove('dark');
       if (t.attr) html.setAttribute('data-theme', t.attr); else html.removeAttribute('data-theme');
       html.style.colorScheme = (t.cs ? t.cs : (html.classList.contains('dark') ? 'dark' : 'light'));
       html.setAttribute('data-font', p.font || 'inter');
       html.setAttribute('data-accent', p.accent || 'blue');
       var s = html.style; var scale = (+p.fontScale || 100);
-      s.setProperty('--inema-font-scale', (scale/100).toString());
+      s.setProperty('--ARCKHÉ-font-scale', (scale/100).toString());
       s.setProperty('font-size', scale + '%');
       s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
       s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -45,7 +45,7 @@
   </script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
   {
     "course": "forja-reel",
     "tracks": [
@@ -129,8 +129,8 @@
     .dark .border-dark-600 { border-color: #374151; }
     .dark .divide-dark-600 > :not([hidden]) ~ :not([hidden]) { border-color: #374151; }
   </style>
-<link href="https://inematds.github.io/videos-edit-curso/curso/trilha2/modulo-2-1.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/videos-edit-curso/en/curso/trilha2/modulo-2-1.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/videos-edit-curso/es/curso/trilha2/modulo-2-1.html" hreflang="es" rel="alternate"/></head>
-<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../../../curso/trilha2/modulo-2-1.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha2/modulo-2-1.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-2-1.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">ES</a></div>
+<link href="https://linnoff88-dev.github.io/arckhe-/curso/trilha2/modulo-2-1.html" hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/arckhe-/en/curso/trilha2/modulo-2-1.html" hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/arckhe-/es/curso/trilha2/modulo-2-1.html" hreflang="es" rel="alternate"/></head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="ARCKHÉ-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../../../curso/trilha2/modulo-2-1.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha2/modulo-2-1.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-2-1.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">ES</a></div>
 <a class="skip sr-only focus:not-sr-only focus:absolute focus:z-50 focus:top-2 focus:left-2 focus:px-4 focus:py-2 focus:bg-dark-800 focus:rounded-lg" href="#conteudo">Ir al contenido</a>
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -141,17 +141,17 @@
 <span class="font-bold text-lg hidden sm:inline">videos-edit Forja Reel</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium" href="https://inema.club" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium" href="https://ARCKHÉ AI" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 hover:text-amber-600 dark:text-slate-300 dark:hover:text-slate-200 text-sm font-medium" href="https://inema.pro" target="_blank">PRO</a>
+<a class="text-amber-700 hover:text-amber-600 dark:text-slate-300 dark:hover:text-slate-200 text-sm font-medium" href="https://ARCKHÉ.pro" target="_blank">PRO</a>
 </div>
 <div class="flex items-center space-x-1 sm:space-x-2">
 <a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors" href="../trilha1/index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamento</span></a>
 <a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-blue-400 bg-blue-500/10" href="index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">La skill</span></a>
 <a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors" href="../trilha3/index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Cómo usar</span></a>
 <a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors" href="../trilha4/index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Ejemplos</span></a>
-<button class="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors text-sm" data-inema-journey-open="" type="button"><span aria-hidden="true">◷</span><span class="hidden lg:inline">Recorrido</span><span class="inema-journey-badge hidden" data-count="0" data-inema-journey-badge=""></span></button>
-<button aria-expanded="false" class="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors text-sm" data-inema-appearance-toggle="[data-inema-appearance]" type="button"><span aria-hidden="true">◑</span><span class="hidden lg:inline">Apariencia</span></button>
+<button class="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors text-sm" data-ARCKHÉ-journey-open="" type="button"><span aria-hidden="true">◷</span><span class="hidden lg:inline">Recorrido</span><span class="ARCKHÉ-journey-badge hidden" data-count="0" data-ARCKHÉ-journey-badge=""></span></button>
+<button aria-expanded="false" class="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors text-sm" data-ARCKHÉ-appearance-toggle="[data-ARCKHÉ-appearance]" type="button"><span aria-hidden="true">◑</span><span class="hidden lg:inline">Apariencia</span></button>
 <button class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors" id="theme-toggle">
 <svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-dark-icon" viewbox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
 <svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-light-icon" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path></svg>
@@ -159,13 +159,13 @@
 </div>
 </div>
 </div>
-<div class="inema-appearance-pop" data-inema-appearance="">
-<div aria-label="Tema" class="inema-segment" role="group"><button data-inema-set-theme="inema-dark">Oscuro</button><button data-inema-set-theme="claro">Claro</button><button data-inema-set-theme="sepia">Sepia</button><button data-inema-set-theme="foco">Enfoque</button><button data-inema-set-theme="contraste">Alto contraste</button></div>
-<div aria-label="Fuente" class="inema-segment" role="group"><button data-inema-set-font="inter">Inter</button><button data-inema-set-font="system">Sistema</button><button data-inema-set-font="leitura">Lectura</button></div>
-<div aria-label="Tamaño" class="inema-segment" role="group"><button data-inema-set-fontscale="100">A</button><button data-inema-set-fontscale="112">A+</button><button data-inema-set-fontscale="125">A++</button></div>
-<div aria-label="Anchura" class="inema-segment" role="group"><button data-inema-set-linewidth="60">Estrecho</button><button data-inema-set-linewidth="68">Medio</button><button data-inema-set-linewidth="75">Ancho</button></div>
-<div aria-label="Entre líneas" class="inema-segment" role="group"><button data-inema-set-leading="1.45">Compacto</button><button data-inema-set-leading="1.7">Cómodo</button></div>
-<div aria-label="Color de acento" class="inema-accent-grid" role="group"><button data-inema-set-accent="emerald" title="Verde"></button><button data-inema-set-accent="blue" title="Azul"></button><button data-inema-set-accent="purple" title="Morado"></button><button data-inema-set-accent="amber" title="Ámbar"></button><button data-inema-set-accent="teal" title="Teal"></button><button data-inema-set-accent="rose" title="Rosa"></button></div>
+<div class="ARCKHÉ-appearance-pop" data-ARCKHÉ-appearance="">
+<div aria-label="Tema" class="ARCKHÉ-segment" role="group"><button data-ARCKHÉ-set-theme="ARCKHÉ-dark">Oscuro</button><button data-ARCKHÉ-set-theme="claro">Claro</button><button data-ARCKHÉ-set-theme="sepia">Sepia</button><button data-ARCKHÉ-set-theme="foco">Enfoque</button><button data-ARCKHÉ-set-theme="contraste">Alto contraste</button></div>
+<div aria-label="Fuente" class="ARCKHÉ-segment" role="group"><button data-ARCKHÉ-set-font="inter">Inter</button><button data-ARCKHÉ-set-font="system">Sistema</button><button data-ARCKHÉ-set-font="leitura">Lectura</button></div>
+<div aria-label="Tamaño" class="ARCKHÉ-segment" role="group"><button data-ARCKHÉ-set-fontscale="100">A</button><button data-ARCKHÉ-set-fontscale="112">A+</button><button data-ARCKHÉ-set-fontscale="125">A++</button></div>
+<div aria-label="Anchura" class="ARCKHÉ-segment" role="group"><button data-ARCKHÉ-set-linewidth="60">Estrecho</button><button data-ARCKHÉ-set-linewidth="68">Medio</button><button data-ARCKHÉ-set-linewidth="75">Ancho</button></div>
+<div aria-label="Entre líneas" class="ARCKHÉ-segment" role="group"><button data-ARCKHÉ-set-leading="1.45">Compacto</button><button data-ARCKHÉ-set-leading="1.7">Cómodo</button></div>
+<div aria-label="Color de acento" class="ARCKHÉ-accent-grid" role="group"><button data-ARCKHÉ-set-accent="emerald" title="Verde"></button><button data-ARCKHÉ-set-accent="blue" title="Azul"></button><button data-ARCKHÉ-set-accent="purple" title="Morado"></button><button data-ARCKHÉ-set-accent="amber" title="Ámbar"></button><button data-ARCKHÉ-set-accent="teal" title="Teal"></button><button data-ARCKHÉ-set-accent="rose" title="Rosa"></button></div>
 </div>
 </nav>
 <!-- BREADCRUMB -->
@@ -184,50 +184,50 @@
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 <span class="inline-block px-3 py-1 bg-blue-500/20 text-blue-400 text-xs font-semibold rounded-full mb-4">MÓDULO 2.1</span>
 <h1 class="text-3xl sm:text-4xl font-bold mb-4">⚙️ Las 5 fases del motor</h1>
-<p class="text-lg text-neutral-400 max-w-3xl inema-prose">Cada skill hija se edita siguiendo el mismo proceso de cinco fases: <strong class="text-neutral-200">corta</strong>, <strong class="text-neutral-200">lee y planifica</strong>, <strong class="text-neutral-200">arma motion y B-roll</strong>, <strong class="text-neutral-200">aplica SFX y renderiza con QC</strong>, y por último <strong class="text-neutral-200">pasa por un revisor en bucle</strong>. Cada fase tiene su control de calidad; eso es lo que hace que el resultado sea bueno de forma confiable, no por suerte.</p>
+<p class="text-lg text-neutral-400 max-w-3xl ARCKHÉ-prose">Cada skill hija se edita siguiendo el mismo proceso de cinco fases: <strong class="text-neutral-200">corta</strong>, <strong class="text-neutral-200">lee y planifica</strong>, <strong class="text-neutral-200">arma motion y B-roll</strong>, <strong class="text-neutral-200">aplica SFX y renderiza con QC</strong>, y por último <strong class="text-neutral-200">pasa por un revisor en bucle</strong>. Cada fase tiene su control de calidad; eso es lo que hace que el resultado sea bueno de forma confiable, no por suerte.</p>
 <div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">7</div><div class="text-xs text-neutral-400">Temas</div></div>
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">~45min</div><div class="text-xs text-neutral-400">Duración</div></div>
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Intermedio</div><div class="text-xs text-neutral-400">Nivel</div></div>
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Teoría</div><div class="text-xs text-neutral-400">Tipo</div></div>
 </div>
-<div aria-label="Progreso del módulo 2.1" aria-valuemax="100" aria-valuemin="0" class="inema-meter max-w-md mt-6" data-inema-meter="modulo:2-1" role="progressbar">
-<div class="flex items-center justify-between text-sm mb-1"><span class="text-neutral-400">Secciones leídas en este módulo</span><span class="text-blue-400 font-semibold"><span data-inema-meter-pct="">0%</span> · <span data-inema-meter-frac="">0 de 0</span></span></div>
-<div class="inema-bar"><div class="inema-bar__fill" data-inema-meter-fill=""></div></div>
+<div aria-label="Progreso del módulo 2.1" aria-valuemax="100" aria-valuemin="0" class="ARCKHÉ-meter max-w-md mt-6" data-ARCKHÉ-meter="modulo:2-1" role="progressbar">
+<div class="flex items-center justify-between text-sm mb-1"><span class="text-neutral-400">Secciones leídas en este módulo</span><span class="text-blue-400 font-semibold"><span data-ARCKHÉ-meter-pct="">0%</span> · <span data-ARCKHÉ-meter-frac="">0 de 0</span></span></div>
+<div class="ARCKHÉ-bar"><div class="ARCKHÉ-bar__fill" data-ARCKHÉ-meter-fill=""></div></div>
 </div>
 </div>
 </header>
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 <div class="lg:grid lg:grid-cols-[200px_minmax(0,1fr)] lg:gap-10">
 <!-- TOC -->
-<nav aria-label="Índice del módulo" class="hidden lg:block sticky top-24 self-start" data-inema-toc="">
-<p class="text-sm text-neutral-400 mb-2">Sección <span class="inema-toc-pos">1</span> de <span class="inema-toc-total">7</span></p>
+<nav aria-label="Índice del módulo" class="hidden lg:block sticky top-24 self-start" data-ARCKHÉ-toc="">
+<p class="text-sm text-neutral-400 mb-2">Sección <span class="ARCKHÉ-toc-pos">1</span> de <span class="ARCKHÉ-toc-total">7</span></p>
 <ul class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-1">1. Fase 1 — Corte</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-2">2. Fase 1.5 — Leer y planificar</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-3">3. Fases 2/3 — Motion + B-roll</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-4">4. Fase 4 — SFX, render, QC</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-5">5. Fase 5 — Revisor en bucle</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-6">6. Por qué el revisor está separado</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-7">7. Conceptos clave</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-1">1. Fase 1 — Corte</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-2">2. Fase 1.5 — Leer y planificar</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-3">3. Fases 2/3 — Motion + B-roll</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-4">4. Fase 4 — SFX, render, QC</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-5">5. Fase 5 — Revisor en bucle</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-6">6. Por qué el revisor está separado</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400 transition-colors" href="#topico-7">7. Conceptos clave</a></li>
 </ul>
 </nav>
 <div class="min-w-0">
 <!-- ================= TÓPICO 1 ================= -->
-<section class="mb-16" data-inema-topic="modulo-2-1#topico-1" id="topico-1">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-1#topico-1" id="topico-1">
 <div class="flex items-center justify-between gap-3 mb-6">
 <div class="flex items-center space-x-4">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl flex-shrink-0">1</span>
 <h2 class="text-2xl font-bold">⚙️ Fase 1 — Corte determinista</h2>
 </div>
-<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 mb-6 leading-relaxed inema-prose" data-inema-block="m2-1-t1-p1">
+<p class="text-neutral-300 mb-6 leading-relaxed ARCKHÉ-prose" data-ARCKHÉ-block="m2-1-t1-p1">
               La primera fase es la más mecánica — y es la base de todo. El motor no «adivina» dónde cortar: mide la <strong class="text-blue-400">energía del audio</strong> y encuentra los fragmentos en los que realmente hablas (las islas de voz). Luego elimina los silencios, las pausas largas, los «déjame repetir» y los falsos comienzos, y siempre conserva la <strong class="text-blue-400">última toma</strong> de cada frase — la buena.
             </p>
 <div class="bg-blue-900/20 border border-blue-500/30 rounded-xl p-5 mb-6">
 <p class="text-sm font-semibold text-blue-400 mb-1">¿Nuevo por aquí? — «determinista» e «islote de voz»</p>
-<p class="text-neutral-300 text-sm inema-prose" data-inema-block="m2-1-t1-p2"><strong>Determinístico</strong> quiere decir: la misma entrada genera exactamente la misma salida, siempre —sin aleatoriedad. <strong>Islita de voz</strong> es cada tramo continuo en el que hay sonido de voz, separado de los tramos vecinos por silencio. El motor detecta las islas por energía (silencedetect), no por la transcripción.</p>
+<p class="text-neutral-300 text-sm ARCKHÉ-prose" data-ARCKHÉ-block="m2-1-t1-p2"><strong>Determinístico</strong> quiere decir: la misma entrada genera exactamente la misma salida, siempre —sin aleatoriedad. <strong>Islita de voz</strong> es cada tramo continuo en el que hay sonido de voz, separado de los tramos vecinos por silencio. El motor detecta las islas por energía (silencedetect), no por la transcripción.</p>
 </div>
 <!-- SVG: pipeline das 5 fases -->
 <figure class="rounded-2xl border border-blue-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
@@ -279,48 +279,48 @@
 <div class="bg-dark-800 rounded-xl border border-dark-600 p-4"><span class="text-blue-400 font-semibold">Conceptos clave</span><p class="text-neutral-300 mt-1">silencedetect, isla, última toma, determinismo.</p></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-read-icon">○</span><span class="inema-read-label">Marcar como leído</span>
+<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-read-icon">○</span><span class="ARCKHÉ-read-label">Marcar como leído</span>
 </button>
 </div>
 </section>
 <!-- ================= TÓPICO 2 ================= -->
-<section class="mb-16" data-inema-topic="modulo-2-1#topico-2" id="topico-2">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-1#topico-2" id="topico-2">
 <div class="flex items-center justify-between gap-3 mb-6">
 <div class="flex items-center space-x-4">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl flex-shrink-0">2</span>
 <h2 class="text-2xl font-bold">👁️ Fase 1.5 — Leer el video y proponer un tratamiento</h2>
 </div>
-<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 mb-6 leading-relaxed inema-prose" data-inema-block="m2-1-t2-p1">
+<p class="text-neutral-300 mb-6 leading-relaxed ARCKHÉ-prose" data-ARCKHÉ-block="m2-1-t2-p1">
               Entre el corte y el montaje existe una fase "intermedia" que marca toda la diferencia: el motor <strong class="text-blue-400">mira su propio corte</strong>. Usando /watch, observa los fotogramas, entiende de qué trata el video y <strong class="text-blue-400">propone un tratamiento</strong>: qué opening usar, qué tipo de B-roll encaja, dónde acelerar y dónde dar espacio. El resultado es un <strong class="text-blue-400">beat sheet</strong> — el plan de montaje.
             </p>
 <div class="bg-blue-900/20 border border-blue-500/30 rounded-xl p-5 mb-6">
 <p class="text-sm font-semibold text-blue-400 mb-1">¿Nuevo por aquí? — «/watch» y «beat sheet»</p>
-<p class="text-neutral-300 text-sm inema-prose" data-inema-block="m2-1-t2-p2"><strong>/watch</strong> es una capacidad de QC visual: el agente ve los frames del video, no solo el texto. <strong>Beat sheet</strong> es el mapa de los «golpes» (beats) de ritmo del reel: dónde entra el cold open, dónde va un B-roll, dónde se acelera. Es el guion de montaje antes de montar.</p>
+<p class="text-neutral-300 text-sm ARCKHÉ-prose" data-ARCKHÉ-block="m2-1-t2-p2"><strong>/watch</strong> es una capacidad de QC visual: el agente ve los frames del video, no solo el texto. <strong>Beat sheet</strong> es el mapa de los «golpes» (beats) de ritmo del reel: dónde entra el cold open, dónde va un B-roll, dónde se acelera. Es el guion de montaje antes de montar.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6">
 <h3 class="text-lg font-semibold text-blue-400 mb-3 flex items-center"><span class="mr-2">🎯</span> Por qué adaptar en lugar de aplicar una plantilla</h3>
-<p class="text-neutral-300 inema-prose">Una noticia exige urgencia y datos; un tutorial, claridad y pasos; un anuncio, gancho y pruebas. Leer el video antes de montarlo permite que el motor elija el tratamiento adecuado para ESE contenido, en vez de aplicar siempre el mismo modelo, lo que generaría fatiga visual y un «look de IA».</p>
+<p class="text-neutral-300 ARCKHÉ-prose">Una noticia exige urgencia y datos; un tutorial, claridad y pasos; un anuncio, gancho y pruebas. Leer el video antes de montarlo permite que el motor elija el tratamiento adecuado para ESE contenido, en vez de aplicar siempre el mismo modelo, lo que generaría fatiga visual y un «look de IA».</p>
 </div>
-<p class="text-neutral-300 text-sm inema-prose mb-2"><span class="text-blue-400 font-semibold">Conceptos clave:</span> /watch, tratamiento, beat sheet, opening, adaptación.</p>
+<p class="text-neutral-300 text-sm ARCKHÉ-prose mb-2"><span class="text-blue-400 font-semibold">Conceptos clave:</span> /watch, tratamiento, beat sheet, opening, adaptación.</p>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-read-icon">○</span><span class="inema-read-label">Marcar como leído</span>
+<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-read-icon">○</span><span class="ARCKHÉ-read-label">Marcar como leído</span>
 </button>
 </div>
 </section>
 <!-- ================= TÓPICO 3 ================= -->
-<section class="mb-16" data-inema-topic="modulo-2-1#topico-3" id="topico-3">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-1#topico-3" id="topico-3">
 <div class="flex items-center justify-between gap-3 mb-6">
 <div class="flex items-center space-x-4">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl flex-shrink-0">3</span>
 <h2 class="text-2xl font-bold">🎞️ Fases 2/3 — Motion graphics + B-roll real</h2>
 </div>
-<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 mb-6 leading-relaxed inema-prose" data-inema-block="m2-1-t3-p1">
+<p class="text-neutral-300 mb-6 leading-relaxed ARCKHÉ-prose" data-ARCKHÉ-block="m2-1-t3-p1">
               Con el corte limpio y el plan en mano, el motor arma: el <strong class="text-blue-400">Hyperframes</strong> genera las animaciones (motion graphics) y el <strong class="text-blue-400">Firecrawl</strong> trae capturas reales de sitios y repositorios para el B-roll. Aquí se aplican dos reglas estrictas: <strong class="text-blue-400">cold open obligatorio</strong> (impacto en los primeros segundos) y <strong class="text-blue-400">nunca más de 4s</strong> sin un impacto visual.
             </p>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -343,25 +343,25 @@
 </div>
 <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
 <h3 class="text-lg font-semibold text-primary mb-2 flex items-center"><span class="mr-2">💡</span> Consejo de lectura</h3>
-<p class="text-neutral-300 text-sm inema-prose">Hyperframes y Firecrawl vuelven a aparecer, con comandos reales, en el módulo 2.2. Aquí basta con fijar el papel de cada uno: Hyperframes = animación; Firecrawl = traer lo real desde afuera.</p>
+<p class="text-neutral-300 text-sm ARCKHÉ-prose">Hyperframes y Firecrawl vuelven a aparecer, con comandos reales, en el módulo 2.2. Aquí basta con fijar el papel de cada uno: Hyperframes = animación; Firecrawl = traer lo real desde afuera.</p>
 </div>
-<p class="text-neutral-300 text-sm inema-prose mb-2"><span class="text-blue-400 font-semibold">Conceptos clave:</span> Hyperframes, Firecrawl, cold open, regla de los 4s.</p>
+<p class="text-neutral-300 text-sm ARCKHÉ-prose mb-2"><span class="text-blue-400 font-semibold">Conceptos clave:</span> Hyperframes, Firecrawl, cold open, regla de los 4s.</p>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-read-icon">○</span><span class="inema-read-label">Marcar como leído</span>
+<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-read-icon">○</span><span class="ARCKHÉ-read-label">Marcar como leído</span>
 </button>
 </div>
 </section>
 <!-- ================= TÓPICO 4 ================= -->
-<section class="mb-16" data-inema-topic="modulo-2-1#topico-4" id="topico-4">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-1#topico-4" id="topico-4">
 <div class="flex items-center justify-between gap-3 mb-6">
 <div class="flex items-center space-x-4">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl flex-shrink-0">4</span>
 <h2 class="text-2xl font-bold">🔊 Fase 4 — SFX, renderizado y QC</h2>
 </div>
-<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 mb-6 leading-relaxed inema-prose" data-inema-block="m2-1-t4-p1">
+<p class="text-neutral-300 mb-6 leading-relaxed ARCKHÉ-prose" data-ARCKHÉ-block="m2-1-t4-p1">
               Ahora se agrega el sonido y sale el archivo. El motor superpone <strong class="text-blue-400">SFX sutiles</strong> (whoosh en las transiciones, ching en los números) debajo de la voz — y <strong class="text-blue-400">sin música por defecto</strong>, para que no compita con la voz. Después renderiza y ejecuta un <strong class="text-blue-400">QC automático</strong> que busca vacíos y superposiciones; cuando encuentra un problema, regenera ese fragmento.
             </p>
 <div class="space-y-4 mb-6">
@@ -369,41 +369,41 @@
 <div class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center"><span class="text-blue-400 font-bold">♪</span></div>
 <div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600">
 <h4 class="font-semibold text-neutral-100 mb-1">SFX debajo de la voz</h4>
-<p class="text-neutral-300 text-sm inema-prose">Efectos cortos y discretos que "producen" el corte sin convertirse en contaminación sonora. La música queda excluida por defecto.</p>
+<p class="text-neutral-300 text-sm ARCKHÉ-prose">Efectos cortos y discretos que "producen" el corte sin convertirse en contaminación sonora. La música queda excluida por defecto.</p>
 </div>
 </div>
 <div class="flex items-start space-x-4">
 <div class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center"><span class="text-blue-400 font-bold">▶</span></div>
 <div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600">
 <h4 class="font-semibold text-neutral-100 mb-1">Render</h4>
-<p class="text-neutral-300 text-sm inema-prose">Las capas (video, motion, subtítulos, SFX) se «aplanan» en un solo MP4, manteniendo la resolución de entrada.</p>
+<p class="text-neutral-300 text-sm ARCKHÉ-prose">Las capas (video, motion, subtítulos, SFX) se «aplanan» en un solo MP4, manteniendo la resolución de entrada.</p>
 </div>
 </div>
 <div class="flex items-start space-x-4">
 <div class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center"><span class="text-blue-400 font-bold">✓</span></div>
 <div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600">
 <h4 class="font-semibold text-neutral-100 mb-1">QC automático</h4>
-<p class="text-neutral-300 text-sm inema-prose">Un análisis busca huecos en el ritmo y sonidos superpuestos; lo que falla vuelve a generarse, no se entrega.</p>
+<p class="text-neutral-300 text-sm ARCKHÉ-prose">Un análisis busca huecos en el ritmo y sonidos superpuestos; lo que falla vuelve a generarse, no se entrega.</p>
 </div>
 </div>
 </div>
-<p class="text-neutral-300 text-sm inema-prose mb-2"><span class="text-blue-400 font-semibold">Conceptos clave:</span> SFX, render, QC (control de calidad), regeneración.</p>
+<p class="text-neutral-300 text-sm ARCKHÉ-prose mb-2"><span class="text-blue-400 font-semibold">Conceptos clave:</span> SFX, render, QC (control de calidad), regeneración.</p>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-read-icon">○</span><span class="inema-read-label">Marcar como leído</span>
+<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-read-icon">○</span><span class="ARCKHÉ-read-label">Marcar como leído</span>
 </button>
 </div>
 </section>
 <!-- ================= TÓPICO 5 ================= -->
-<section class="mb-16" data-inema-topic="modulo-2-1#topico-5" id="topico-5">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-1#topico-5" id="topico-5">
 <div class="flex items-center justify-between gap-3 mb-6">
 <div class="flex items-center space-x-4">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl flex-shrink-0">5</span>
 <h2 class="text-2xl font-bold">🔁 Fase 5 — Revisor independiente en bucle</h2>
 </div>
-<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 mb-6 leading-relaxed inema-prose" data-inema-block="m2-1-t5-p1">
+<p class="text-neutral-300 mb-6 leading-relaxed ARCKHÉ-prose" data-ARCKHÉ-block="m2-1-t5-p1">
               La última fase es un bloqueo de seguridad: un <strong class="text-blue-400">revisor independiente</strong> — un subagente con contexto limpio — mira el render (mediante /watch) y emite un veredicto: <strong class="text-blue-400">PASS</strong> o <strong class="text-blue-400">FAIL</strong>. Si es FAIL, indica qué está mal, el motor lo corrige y el ciclo se repite. No se entrega nada antes de un PASS.
             </p>
 <!-- SVG: loop do revisor -->
@@ -433,56 +433,56 @@
 </svg>
 <figcaption class="text-xs text-neutral-400 mt-2 text-center">El camino azul (PASS) solo se abre cuando el revisor aprueba. Mientras lo reprueba, la flecha cian (FAIL) devuelve el render para corregirlo. El ciclo se repite hasta que pase.</figcaption>
 </figure>
-<p class="text-neutral-300 text-sm inema-prose mb-2"><span class="text-blue-400 font-semibold">Conceptos clave:</span> revisor, subagente, PASS/FAIL, bucle de calidad.</p>
+<p class="text-neutral-300 text-sm ARCKHÉ-prose mb-2"><span class="text-blue-400 font-semibold">Conceptos clave:</span> revisor, subagente, PASS/FAIL, bucle de calidad.</p>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-read-icon">○</span><span class="inema-read-label">Marcar como leído</span>
+<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-read-icon">○</span><span class="ARCKHÉ-read-label">Marcar como leído</span>
 </button>
 </div>
 </section>
 <!-- ================= TÓPICO 6 ================= -->
-<section class="mb-16" data-inema-topic="modulo-2-1#topico-6" id="topico-6">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-1#topico-6" id="topico-6">
 <div class="flex items-center justify-between gap-3 mb-6">
 <div class="flex items-center space-x-4">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl flex-shrink-0">6</span>
 <h2 class="text-2xl font-bold">🧪 Por qué funciona un revisor separado</h2>
 </div>
-<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 mb-6 leading-relaxed inema-prose" data-inema-block="m2-1-t6-p1">
+<p class="text-neutral-300 mb-6 leading-relaxed ARCKHÉ-prose" data-ARCKHÉ-block="m2-1-t6-p1">
               ¿Por qué no dejar que el propio agente que armó el video juzgue el resultado? Porque quien lo construye se queda <strong class="text-blue-400">contaminado</strong> por lo que hizo: conoce la intención, «completa» mentalmente lo que faltó y no ve sus propios errores. El revisor es un subagente <strong class="text-blue-400">que nunca vio el montaje</strong> — juzga solo lo que está en pantalla, como lo haría un espectador.
             </p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6">
 <h3 class="text-lg font-semibold text-blue-400 mb-3 flex items-center"><span class="mr-2">🧠</span> La idea central</h3>
-<p class="text-neutral-300 inema-prose">Una mirada sin contexto capta lo que la mirada comprometida pasa por alto. Es la misma razón por la que revisamos mejor el texto de otras personas que el nuestro: la distancia genera objetividad. El motor institucionaliza esa distancia al darle al revisor un contexto limpio.</p>
+<p class="text-neutral-300 ARCKHÉ-prose">Una mirada sin contexto capta lo que la mirada comprometida pasa por alto. Es la misma razón por la que revisamos mejor el texto de otras personas que el nuestro: la distancia genera objetividad. El motor institucionaliza esa distancia al darle al revisor un contexto limpio.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
 <h4 class="font-bold text-neutral-100 mb-2">Agente que lo armó</h4>
-<p class="text-neutral-300 text-sm inema-prose">Conoce la intención de cada corte. Tiende a aprobar porque «sabe lo que quiso decir», aunque no se vea en pantalla.</p>
+<p class="text-neutral-300 text-sm ARCKHÉ-prose">Conoce la intención de cada corte. Tiende a aprobar porque «sabe lo que quiso decir», aunque no se vea en pantalla.</p>
 </div>
 <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
 <h4 class="font-bold text-blue-400 mb-2">Revisor independiente</h4>
-<p class="text-neutral-300 text-sm inema-prose">No tiene esa memoria. Si algo no queda claro con solo verlo, lo reprueba — que es exactamente lo que sentiría un espectador.</p>
+<p class="text-neutral-300 text-sm ARCKHÉ-prose">No tiene esa memoria. Si algo no queda claro con solo verlo, lo reprueba — que es exactamente lo que sentiría un espectador.</p>
 </div>
 </div>
-<p class="text-neutral-300 text-sm inema-prose mb-2"><span class="text-blue-400 font-semibold">Conceptos clave:</span> contexto limpio, sesgo del autor, verificación independiente.</p>
+<p class="text-neutral-300 text-sm ARCKHÉ-prose mb-2"><span class="text-blue-400 font-semibold">Conceptos clave:</span> contexto limpio, sesgo del autor, verificación independiente.</p>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-read-icon">○</span><span class="inema-read-label">Marcar como leído</span>
+<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-read-icon">○</span><span class="ARCKHÉ-read-label">Marcar como leído</span>
 </button>
 </div>
 </section>
 <!-- ================= TÓPICO 7 ================= -->
-<section class="mb-16" data-inema-topic="modulo-2-1#topico-7" id="topico-7">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-1#topico-7" id="topico-7">
 <div class="flex items-center justify-between gap-3 mb-6">
 <div class="flex items-center space-x-4">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl flex-shrink-0">7</span>
 <h2 class="text-2xl font-bold">🗝️ Conceptos clave del motor</h2>
 </div>
-<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 mb-6 leading-relaxed inema-prose" data-inema-block="m2-1-t7-p1">
+<p class="text-neutral-300 mb-6 leading-relaxed ARCKHÉ-prose" data-ARCKHÉ-block="m2-1-t7-p1">
               Tres ideas conectan todo lo que viste y vuelven en el módulo 2.2 (donde se convierten en scripts). Recuérdalas ahora: explican por qué el motor es <em>confiable</em>, no solo listo.
             </p>
 <dl class="space-y-3 mb-6">
@@ -491,18 +491,18 @@
 <div class="bg-dark-800 rounded-xl border border-dark-600 p-4"><dt class="font-semibold text-blue-400">Ciclo de calidad</dt><dd class="text-neutral-300 text-sm mt-1">Repite revisar→corregir hasta un PASS. Convierte «¿quedó bien?» en una condición objetiva para detenerse.</dd></div>
 </dl>
 <!-- Checagem leve opcional -->
-<div class="inema-check mt-8 bg-dark-800 border border-dark-600 rounded-xl p-6" data-inema-check="modulo-2-1#q1">
+<div class="ARCKHÉ-check mt-8 bg-dark-800 border border-dark-600 rounded-xl p-6" data-ARCKHÉ-check="modulo-2-1#q1">
 <p class="font-medium mb-4">Autorrecuperación (opcional): por qué el revisor de la Fase 5 es un subagente <em>separado</em>?</p>
-<div class="inema-check-options space-y-2">
-<button class="block w-full text-left px-4 py-2 rounded-lg bg-dark-700 border border-dark-600 hover:bg-dark-600 transition-colors text-sm" data-inema-check-option="0" type="button">Para renderizar el video más rápido en paralelo.</button>
-<button class="block w-full text-left px-4 py-2 rounded-lg bg-dark-700 border border-dark-600 hover:bg-dark-600 transition-colors text-sm" data-inema-check-option="1" type="button">Para juzgar el render sin el sesgo de quien lo montó (contexto limpio).</button>
-<button class="block w-full text-left px-4 py-2 rounded-lg bg-dark-700 border border-dark-600 hover:bg-dark-600 transition-colors text-sm" data-inema-check-option="2" type="button">Porque el agente principal no sabe usar /watch.</button>
+<div class="ARCKHÉ-check-options space-y-2">
+<button class="block w-full text-left px-4 py-2 rounded-lg bg-dark-700 border border-dark-600 hover:bg-dark-600 transition-colors text-sm" data-ARCKHÉ-check-option="0" type="button">Para renderizar el video más rápido en paralelo.</button>
+<button class="block w-full text-left px-4 py-2 rounded-lg bg-dark-700 border border-dark-600 hover:bg-dark-600 transition-colors text-sm" data-ARCKHÉ-check-option="1" type="button">Para juzgar el render sin el sesgo de quien lo montó (contexto limpio).</button>
+<button class="block w-full text-left px-4 py-2 rounded-lg bg-dark-700 border border-dark-600 hover:bg-dark-600 transition-colors text-sm" data-ARCKHÉ-check-option="2" type="button">Porque el agente principal no sabe usar /watch.</button>
 </div>
-<div aria-live="polite" class="mt-4 text-sm" data-inema-check-feedback="" role="status"></div>
+<div aria-live="polite" class="mt-4 text-sm" data-ARCKHÉ-check-feedback="" role="status"></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-read-icon">○</span><span class="inema-read-label">Marcar como leído</span>
+<button aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 hover:bg-blue-500/30 transition-colors" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-read-icon">○</span><span class="ARCKHÉ-read-label">Marcar como leído</span>
 </button>
 </div>
 </section>
@@ -531,21 +531,21 @@
 </div>
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
-<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm"><p>videos-edit Forja Reel — Curso · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" target="_blank">INEMA.CLUB</a></p></div>
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm"><p>videos-edit Forja Reel — Curso · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" target="_blank">ARCKHÉ AI</a></p></div>
 </footer>
 <script>
     (function(){
       var themeToggle=document.getElementById('theme-toggle'), darkIcon=document.getElementById('theme-toggle-dark-icon'), lightIcon=document.getElementById('theme-toggle-light-icon'), html=document.documentElement;
       if (html.classList.contains('dark')) lightIcon.classList.remove('hidden'); else darkIcon.classList.remove('hidden');
-      if (themeToggle) themeToggle.addEventListener('click', function(){ darkIcon.classList.toggle('hidden'); lightIcon.classList.toggle('hidden'); html.classList.toggle('dark'); var isDark=html.classList.contains('dark'); localStorage.setItem('theme', isDark?'dark':'light'); try{var p=JSON.parse(localStorage.getItem('inema.prefs')||'{}'); p.theme=isDark?'inema-dark':'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p));}catch(e){} html.style.colorScheme=isDark?'dark':'light'; });
+      if (themeToggle) themeToggle.addEventListener('click', function(){ darkIcon.classList.toggle('hidden'); lightIcon.classList.toggle('hidden'); html.classList.toggle('dark'); var isDark=html.classList.contains('dark'); localStorage.setItem('theme', isDark?'dark':'light'); try{var p=JSON.parse(localStorage.getItem('ARCKHÉ.prefs')||'{}'); p.theme=isDark?'ARCKHÉ-dark':'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p));}catch(e){} html.style.colorScheme=isDark?'dark':'light'; });
     })();
   </script>
 <script src="../../../assets/learn.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function(){
-      if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init(); }
-      if (window.INEMA && INEMA.registerCheck) {
-        INEMA.registerCheck('modulo-2-1#q1', {
+      if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init(); }
+      if (window.ARCKHÉ && ARCKHÉ.registerCheck) {
+        ARCKHÉ.registerCheck('modulo-2-1#q1', {
           answer: 1,
           explain: {
             0: 'Velocidade nêo é o ponto: o revisor existe para julgar qualidade, nêo para acelerar.',

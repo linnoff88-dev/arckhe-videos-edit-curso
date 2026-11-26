@@ -6,10 +6,10 @@ pra skill em si (download + guia de uso) — repo irmêo, separado deste em
 
 ## Git / autor
 
-Este repo vive na conta GitHub **`inematds`**.
+Este repo vive na conta GitHub **`linnoff88-dev`**.
 
-- `git config` (local) = `inematds <inematds@gmail.com>`.
-- Remote: `git@github.com:inematds/videos-edit-curso.git`.
+- `git config` (local) = `linnoff88-dev <linnoff88-dev@gmail.com>`.
+- Remote: `git@github.com:linnoff88-dev/videos-edit-curso.git`.
 - Repo novo (clone com histórico do antigo `videos-edit`, que virou
   `videos-edit-cria`) — nêo confundir com aquele.
 
@@ -20,7 +20,7 @@ Este repo vive na conta GitHub **`inematds`**.
   padrêo `guia/` de projeto).
 - `assets/learn.css` + `assets/learn.js` — camada de aprendizagem compartilhada.
 - Download da skill (`.skill`) nêo fica mais aqui — os 3 botões de download
-  apontam pro guia em `videos-edit-cria` (`https://inematds.github.io/videos-edit-cria/guia/`).
+  apontam pro guia em `videos-edit-cria` (`https://linnoff88-dev.github.io/arckhe-/guia/`).
 
 ## Deploy = sempre via git
 

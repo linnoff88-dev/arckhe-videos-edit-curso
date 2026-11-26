@@ -19,10 +19,10 @@ Abra o `index.html` na raiz (ou acesse pelo GitHub Pages). Curso self-contained:
 
 ## Baixar a skill
 A skill Forja Reel (com download pronto e guia de uso) vive em
-[inematds/videos-edit-cria](https://inematds.github.io/videos-edit-cria/guia/).
+[linnoff88-dev/videos-edit-cria](https://linnoff88-dev.github.io/arckhe-/guia/).
 
 ---
-Feito para a comunidade êÂ· [INEMA.CLUB](https://inema.club)
+Feito para a comunidade êÂ· [ARCKHÉ AI](https://ARCKHÉ AI)
 
 ---
 
